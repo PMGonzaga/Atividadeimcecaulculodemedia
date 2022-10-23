@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <style>
+        input{
+            background-color: rgb(224, 224, 224);
+            border-radius: 5px;
+            border: solid 1px;
+        }
+
+        #enviar{
+            background-color: rgb(224, 224, 224);
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <form action="form_imc.php" method="GET"><br>
+            <fieldset style="width:45%; background-color: rgb(203, 203, 203);" >
+                <legend>Calculadora IMC</legend>
+                    <div>
+                        <br><br>
+                            <label for="peso"> Digite seu Peso: </label>
+                            <input type="text" id="peso" name="peso" required>
+                            <br><br>
+                    
+                            <label for="altura">Digite sua Altura: </label>
+                            <input type="text" id="altura" name="altura" required>
+                            <br><br><br>
+                            <input type="submit" id="enviar" value="Calcule o IMC">
+                            <br><br><br>
+                    </div>
+            </fieldset>        
+        </form>
+    </center>   
+    
+</body>
+</html>
